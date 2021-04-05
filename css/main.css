@@ -1,0 +1,381 @@
+#header-section{
+    background-image: url('../assets/top-section_4360x1500.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#header-section .container {
+    flex:1;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-section h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0;
+}
+
+#header-section p {
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#header-section .btn{
+    margin-top: 1rem;
+}
+
+#promo{
+    display: flex;
+    padding: 5rem 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#promo h2 {
+    text-align: center;
+}
+
+#promo .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 80%;
+    margin-bottom: 7rem;
+}
+
+#promo .posts {
+    margin: 1rem;
+    flex:1;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+#promo .posts .subtitle {
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+}
+
+#promo .posts .stats {
+    margin-top: 1rem;
+    display: flex;
+}
+
+#promo .posts span {
+    margin-right: 1rem;
+}
+
+#promo .posts .actions {
+    display: flex;
+    margin-top: 1rem;
+    background-color: #eeeeee;
+    font-weight: bold;
+    padding: 0.5rem 0.2rem;
+}
+
+#promo h3 {
+    width: 60%;
+    text-align: center;
+}
+
+.actions i {
+    color: black;
+}
+
+#features {
+    display: flex;
+    padding: 5rem 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#features h1 {
+    font-size: 3rem;
+}
+
+#features .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1rem;
+    width: 80%;
+    margin-bottom: 3rem;
+}
+
+#features .feat {
+    margin: 1rem;
+    flex:1;
+}
+
+#features .thumbnail {
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+#features h3{
+    font-weight: 600;
+    text-align: center;
+}
+#features p {
+    color: #666;
+    font-weight: 600;
+    text-align: center;
+}
+
+#benefits {
+    padding: 5rem 2rem;
+}
+
+#benefits h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#benefits .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#benefits .benefit {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.benefit .benefit-logo {
+    width: 50%;
+    grid-column: span 1;
+}
+
+.benefit .info {
+    grid-column: span 2;
+}
+
+.info > h3, p {
+    text-align: left;
+}
+.info h3 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.info p {
+    color: #666;
+    font-weight: 600;
+}
+
+
+#collection{
+    padding: 5rem 2rem;
+}
+
+#collection h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#collection p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #666;
+    width: 60%;
+    margin: 2rem auto;
+}
+
+#collection .container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#collection .parent {
+    position: relative;
+    max-width: 40%;
+}
+
+.parent img {
+    width: 100%;
+}
+
+.parent .overlay {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.overlay h2 {
+    text-align: center;
+    margin: 0;
+}
+
+
+#clients {
+    padding: 4rem 0;
+    background-color: #eee;
+    margin: 0;
+    width: 100%;
+}
+
+#clients h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#clients .container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1rem;
+    width: 70%;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+#clients img {
+    width: 100%;
+}
+
+#tag {
+    padding: 5rem 0rem;
+}
+
+#tag h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#tag .container{
+    display: flex;
+    width: 70%;
+    margin: 2rem auto;
+    padding: 0;
+}
+#tag input {
+    padding: 10px;
+    flex: 5;
+    border:1px solid #bbb;
+    border-radius: 5px;
+}
+
+#tag button {
+    flex:1;
+    background: #3399ff;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+
+#support {
+    width: 100%;
+    background-color: #eee;
+    padding: 5rem 0;
+}
+
+#support h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#support .container {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#support img {
+    width: 100%;
+}
+
+footer .small-nav {
+    background-color: #333;
+    padding: 1rem 0;
+    margin: 0;
+
+}
+
+.small-nav p {
+    margin: 0;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.small-nav a{
+    text-decoration: none;
+    color: #3399ff;
+    font-weight: 600;
+}
+
+footer .last-row {
+    background-color: #000;
+    padding: 1rem 0;
+}
+
+.last-row p {
+    text-align: center;
+    color: #666;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+/* General Styling */
+
+.thumbnail {
+    width: 100%;
+}
+
+i {
+    color:darkgrey;
+    margin-right: 0.5rem;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, p {
+    font-family:'Roboto', sans-serif;
+}
+
+
+.btn {
+    border:0;
+    outline: none;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+    background-color: #3399cc;
+    font-size:1.2rem;
+    font-weight: 200;
+    color: #fff;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #3399ff;
+}
